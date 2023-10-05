@@ -1,0 +1,2 @@
+# Why do I need to add a GitHub account to Nytro?
+Nytro works, by using the GitHub API to fetch information about a project. The search function also uses this API to gain information. Therefore, Nytro has to send a lot of requests to this API, but your requests are limited to 60 requests per hour. However, if you use your GitHub account in Nytro, it will only send authenticated requests to the GitHub API. If you send those request, you'll have 5000 per hour instead of 60.
